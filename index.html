@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Promise</title>
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+		<link rel="stylesheet" href="./assests/css/style.css">
+	</head>
+	<body>
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-md-6 offset-md-3">
+					<div class="card">
+					<div class="card-body">
+						<form action="" id="blogform">
+							<div class="form-group">
+								<label for="Topic">Title</label>
+								<input type="text" class="form-control" id="topicname">
+
+							</div>
+							<div class="form-group">
+								<label for="Blog">Blog</label>
+								<textarea rows="4" name="Blog" class="form-control" id="blogcontrol"></textarea>
+							</div>
+							<button class="btn btn-outline-primary btn-sm btn-block" >Add Blog</button>
+						</form>
+					</div>
+				</div>
+				</div>
+			</div>
+				
+		</div>
+		
+		<div class="container-fluid mt-5">
+			<div class="row" id="blogcontainer">
+				<!-- <div class="col-md-3">
+					<div class="card">
+						<div class="card-header">
+							<strong>js</strong>
+						</div>
+						<div class="card-body p-4">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum impedit perspiciatis laudantium illum, itaque hic culpa cupiditate! Itaque in, error quis, voluptatem placeat deserunt id, voluptatum et quo autem optio!</p>
+						</div>
+						<div class="card-footer d-flex justify-content-between">
+							<button class="btn btn-danger btn-sm ">Edit</button>
+							<button class="btn btn-primary btn-sm ">remove</button>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+		
+		<div class="spinner d-none" id="spinner">
+			<div class="spinner-border" role="status">
+ 				 <span class="sr-only">Loading...</span>
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<script src="./assests/js/app.js"> </script>
+	</body>
+
+
+</html>

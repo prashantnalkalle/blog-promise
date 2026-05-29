@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#blogcontainer .card{
+
+    height: 100%;
+    width: 100%;
+}
+
+#blogcontainer .card-body{
+    overflow-y: auto;
+}
+
+.spinner{
+    height: 100vh;
+    width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background-color: rgba(255,255, 255, .7);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
