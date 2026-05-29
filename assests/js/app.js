@@ -67,7 +67,7 @@ function addblog(newblog){
                 let res = 'Blog addedd successfully'
                 resolve(res)
                 blogarr.push(newblog)
-                
+
             }else{
                 let err = 'Server Down!'
                 reject(err)
@@ -89,6 +89,7 @@ function fetchblog(){
             }else{
                 let err ='Blog fetch Failed!!'
                 reject(err)
+                blogarr.pop()
 
             }
 
